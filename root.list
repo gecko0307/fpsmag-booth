@@ -5,8 +5,8 @@
   "item4": {"title": "FPS №28 2014", "url": "fps28.page", "img": "fps28.jpg"},
   "item5": {"title": "FPS №27 2013", "url": "fps27.page", "img": "fps27.jpg"},
   "item6": {"title": "FPS №26 2013", "url": "fps26.page", "img": "fps26.jpg"},
-  "item7": {"title": "FPS №25 2013", "url": "test.list"},
-  "item8": {"title": "FPS №24 2013", "url": "test.list"},
+  "item7": {"title": "FPS №25 2013", "url": "fps25.page", "img": "fps25.jpg"},
+  "item8": {"title": "FPS №24 2013", "url": "fps24.page", "img": "fps24.jpg"},
   "item9": {"title": "FPS №23 2013", "url": "test.list"},
   "item10": {"title": "FPS №22 2013", "url": "test.list"}
 }
