@@ -1,7 +1,7 @@
 $(document).ready(function()
 {
-    "use strict";
-    $('#Scrollable').perfectScrollbar({suppressScrollX: true});
+    //"use strict";
+    //$('#Scrollable').perfectScrollbar({suppressScrollX: true});
 	
     $("#NavigatorLeft").click(function(e)
 	{
