@@ -1,0 +1,121 @@
+.FPSContainer
+{
+	border-radius: 16px;
+	border: 1px solid #50aced;
+    width: 510px;
+    height: 450px;
+	padding-top: 10px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(images/light.jpg);
+}
+
+.ContentHolder
+{
+    position: relative;
+	margin: auto;
+    width: 490px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.ContentHolder .Content
+{
+    width: 470px;
+}
+
+.FPSListElement
+{
+    background-color: blue;
+    width: 120px;
+    height: 85px;
+    float: left;
+    margin: 16px 16px 16px 16px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(thumbs/unknown.jpg);
+    border: 1px solid white;
+    box-shadow: 0 0 0 1px black,
+                0px 2px 4px rgba(0, 0, 0, 0.8);
+    opacity: 0.8;
+}
+
+.FPSListElement:hover
+{
+    opacity: 1;
+}
+
+.FPSIssueCover
+{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    width: 240px;
+    height: 170px;
+    margin-top: 16px;
+	margin-bottom: 16px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(thumbs/unknown.jpg);
+    border: 1px solid white;
+    box-shadow: 0 0 0 1px black,
+                0px 2px 4px rgba(0, 0, 0, 0.8);
+    opacity: 0.8;
+}
+
+.FPSIssueTitle
+{
+    text-align: center;
+	font-size: 18pt;
+	font-family: sans;
+    text-decoration: none;
+    color: #50aced;
+}
+
+.FPSIssueDescription
+{
+    font-family: sans;
+    text-decoration: none;
+	margin-top: 16px;
+    color: #162F3F;
+}
+
+.Link
+{
+    color: #50aced;
+	text-decoration: none;
+}
+
+.Link:hover
+{
+    color: #50aced;
+	text-decoration: underline;
+}
+
+.InfoBar
+{
+    width: 440px;
+    height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #50aced;
+    font-family: sans;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.InfoBarTextLeft
+{
+}
+
+.InfoBarTextRight
+{
+    /*text-align: right;*/
+}
+
+.InfoBarTextCenter
+{
+    /*text-align: center;*/
+}
