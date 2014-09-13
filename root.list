@@ -14,5 +14,11 @@
   "item13": {"title": "FPS №19 2012", "url": "fps19.page", "img": "fps19.jpg"},
   "item14": {"title": "FPS №18 2012", "url": "fps18.page", "img": "fps18.jpg"},
   "item15": {"title": "FPS №17 2011", "url": "fps17.page", "img": "fps17.jpg"},
-  "item16": {"title": "FPS №16 2011", "url": "fps16.page", "img": "fps16.jpg"}
+  "item16": {"title": "FPS №16 2011", "url": "fps16.page", "img": "fps16.jpg"},
+  "item17": {"title": "FPS №15 2011", "url": "fps15.page", "img": "fps15.jpg"},
+  "item18": {"title": "FPS №14 2011", "url": "fps14.page", "img": "fps14.jpg"},
+  "item19": {"title": "FPS №13 2011", "url": "fps13.page", "img": "fps13.jpg"},
+  "item20": {"title": "FPS №12 2010", "url": "fps12.page", "img": "fps12.jpg"},
+  "item21": {"title": "FPS №11 2010", "url": "fps11.page", "img": "fps11.jpg"},
+  "item22": {"title": "FPS №10 2010", "url": "fps10.page", "img": "fps10.jpg"}
 }
