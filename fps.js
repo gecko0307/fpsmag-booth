@@ -1,20 +1,5 @@
 $(document).ready(function()
-{
-    //"use strict";
-    //$('#Scrollable').perfectScrollbar({suppressScrollX: true});
-
-    $('.FPSListElement').hover(
-        function() 
-        {
-            $('.ContentHolder').css('background-color', 'black');
-        },
-        function()
-        {
-            // on mouseout, reset the background colour
-            $('.ContentHolder').css('background-color', 'white');
-        }
-    );
-    
+{   
     $("#NavigatorLeft").click(function(e)
     {
         e.preventDefault();
