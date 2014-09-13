@@ -2,19 +2,32 @@ $(document).ready(function()
 {
     //"use strict";
     //$('#Scrollable').perfectScrollbar({suppressScrollX: true});
-	
+
+    $('.FPSListElement').hover(
+        function() 
+        {
+            $('.ContentHolder').css('background-color', 'black');
+        },
+        function()
+        {
+            // on mouseout, reset the background colour
+            $('.ContentHolder').css('background-color', 'white');
+        }
+    );
+    
     $("#NavigatorLeft").click(function(e)
-	{
+    {
         e.preventDefault();
         loadElementsList(prevLevel());
     });
-	
+    
     $("#NavigatorRight").click(function(e)
-	{
+    {
         e.preventDefault();
     });
-	
-	loadElementsList("root.list");
+    
+    loadElementsList("root.list");
+
 });
 
 // TODO: redesign this with a stack
@@ -23,17 +36,17 @@ var folder = "root.list";
 function prevLevel()
 {
     if (level == 0 || level == 1)
-	    return "root.list";
+        return "root.list";
     else
-	{
-	    return folder;
-	}
+    {
+        return folder;
+    }
 }
 
 function loadElementsList(jsonFile)
 {
     var success = false;
-	$("#NavigatorInfo").text("FPS Magazine");
+    $("#NavigatorInfo").text("FPS Magazine");
 
     $('#ScrollableContent').empty();
     $.getJSON(jsonFile, function(data)
@@ -59,25 +72,25 @@ function loadElementsList(jsonFile)
             {
                 $("#NavigatorInfo").text(element.title);
             });
-			
-			item.mouseleave(function()
-			{
+            
+            item.mouseleave(function()
+            {
                 $("#NavigatorInfo").text("FPS Magazine");
             });
 
             a.click(function(e)
             {
                 e.preventDefault();
-				level = level + 1;
-				if (extension(element.url) == "list")
+                level = level + 1;
+                if (extension(element.url) == "list")
                     loadElementsList(element.url);
-				else if (extension(element.url) == "page")
-				    loadPage("pages/" + element.url);
+                else if (extension(element.url) == "page")
+                    loadPage("pages/" + element.url);
             });
 
             item.appendTo(a);
-			
-			success = true;
+            
+            success = true;
         });
     });
 }
@@ -90,22 +103,22 @@ function numberOfElements()
 function loadPage(jsonFile)
 {
     var success = false;
-	$("#NavigatorInfo").text("FPS Magazine");
+    $("#NavigatorInfo").text("FPS Magazine");
 
     $('#ScrollableContent').empty();
     $.getJSON(jsonFile, function(data)
     {
         $.each(data, function(index, element)
         {
-			$("#ScrollableContent").load("pages/" + element.html, function()
-			{
+            $("#ScrollableContent").load("pages/" + element.html, function()
+            {
             });
-			
-			success = true;
-			
-			$("#NavigatorInfo").text(element.title);
+            
+            success = true;
+            
+            $("#NavigatorInfo").text(element.title);
         });
-	});
+    });
 }
 
 function extension(filename)
