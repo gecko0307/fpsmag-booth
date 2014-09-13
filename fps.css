@@ -48,14 +48,20 @@
                 0px 2px 4px rgba(0, 0, 0, 0.8);
     opacity: 1;
     transition: all 0.1s ease;
-    -moz-transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease; /* Safari and Chrome */
+    -moz-transition: all 0.1s ease; /* Firefox */
+    -ms-transition: all 0.1s ease; /* IE 9 */
+    -o-transition: all 0.1s ease; /* Opera */
 }
 
 .FPSListElement:hover
 {
     opacity: 1;
     transform:scale(1.25);
-    -moz-transform:scale(1.25);
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
     box-shadow: 0 0 0 1px black,
                 0px 5px 10px rgba(0, 0, 0, 0.8);
 }
