@@ -20,5 +20,10 @@
   "item19": {"title": "FPS №13 2011", "url": "fps13.page", "img": "fps13.jpg"},
   "item20": {"title": "FPS №12 2010", "url": "fps12.page", "img": "fps12.jpg"},
   "item21": {"title": "FPS №11 2010", "url": "fps11.page", "img": "fps11.jpg"},
-  "item22": {"title": "FPS №10 2010", "url": "fps10.page", "img": "fps10.jpg"}
+  "item22": {"title": "FPS №10 2010", "url": "fps10.page", "img": "fps10.jpg"},
+  "item23": {"title": "FPS №9 2010",  "url": "fps9.page",  "img": "fps9.jpg"},
+  "item24": {"title": "FPS №8 2010",  "url": "fps8.page",  "img": "fps8.jpg"},
+  "item25": {"title": "FPS №7 2009",  "url": "fps7.page",  "img": "fps7.jpg"},
+  "item26": {"title": "FPS №6 2008",  "url": "fps6.page",  "img": "fps6.jpg"},
+  "item27": {"title": "FPS №5 2008",  "url": "fps5.page",  "img": "fps5.jpg", "vertical": 1}
 }

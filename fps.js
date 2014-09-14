@@ -47,6 +47,15 @@ function loadElementsList(jsonFile)
                 "style": "background-image: url('thumbs/" + img + "');"
             });
 
+            if ("vertical" in element)
+            {
+                if (element.vertical == 1)
+                {
+                    item.css("width", "85px");
+                    item.css("height", "120px");
+                }
+            }
+
             var a = $("<a>",
             {
                 "class": "FPSLink",
